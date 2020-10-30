@@ -1,10 +1,10 @@
 import Comment from '../components/Common'
+import Layout from '../components/Layout'
 function about() {
   return (
-    <div>
-      <Comment />
-      About me
-    </div>
+    <Layout >
+      <div style={{ height: '100vh', width: '100vw' }}>about</div>
+    </Layout>
   )
 }
 
