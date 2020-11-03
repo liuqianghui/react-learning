@@ -1,7 +1,7 @@
 import Layout from '../components/Layout'
 import Common from './../components/Common'
 
-export default () => {
+const Home = () => {
   return (
     <Layout>
       <div>
@@ -11,3 +11,5 @@ export default () => {
     </Layout>
   )
 }
+
+export default Home
