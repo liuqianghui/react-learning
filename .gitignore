@@ -1,9 +1,9 @@
 # build output
-dist
-.next
+next-app/dist
+next-app/.next
 
 # dependencies
-node_modules
+next-app/node_modules
 package-lock.json
 yarn.lock
 !/yarn.lock
